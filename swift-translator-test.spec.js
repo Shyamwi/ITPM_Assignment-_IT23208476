@@ -160,18 +160,43 @@ const TEST_DATA = {
             expected: 'මම 2023 ගෙදර යනවා !',
 
         },
+        {
+            tcId: 'Neg_Fun_004',
+            input: 'mama office @ 9am yanavaa.',
+            expected: 'මම office @ 9am යනවා',
+
+        },
+        {
+            tcId: 'Neg_Fun_005',
+            input: 'mama paasal YANAVAA.',
+            expected: 'මම පාසල් යනවා.',
+
+        },
+        {
+            tcId: 'Neg_Fun_006',
+            input: 'ela machan! supiri!!',
+            expected: 'එල මචන්! සුපිරි!!',
+
+        },
+               {
+            tcId: 'Neg_Fun_007',
+            input: 'mama office yanna kalin Zoom meeting ekak thiyenavaa.',
+            expected: 'මම ඔෆිස් යනවා කලින් Zoom meeting එකක් තියෙනවා.',
+
+        },
+                      {
+            tcId: 'Neg_Fun_008',
+            input: 'mama adha office yanna kalin meeting ekak thiyenavaa Zoom walin. ehema naththam traffic eka nisaa late wenna puluvan.',
+            expected: 'මම අද office යන්න කලින් meeting එකක් තියෙනවා Zoom වලින්. එහෙම නැත්තම් traffic එක නිසා late වෙන්න පුළුවන්.',
+
+        },
 
     ],
 
     ui: {
         tcId: 'Pos_UI_001',
-        //name: 'Real-time translation updates as typing',
-        input: 'mama kaeema kannavaa',
-        partialInput: 'mama kae',
-        expectedFull: 'මම කෑම කන්නවා',
-        //category: 'Usability flow',
-        //grammar: 'Present tense',
-        //length: 'S'
+        input: '~!@#$%^&*()',
+        expectedFull: '~!@#$%^&*()',
     }
 };
 
